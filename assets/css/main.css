@@ -5043,3 +5043,17 @@ ul {
 	color: #272727;
 }
 
+
+
+/* Custom Grid Styles for Project Layout */
+.posts.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+  align-items: stretch;
+}
+
+
+
+
+
