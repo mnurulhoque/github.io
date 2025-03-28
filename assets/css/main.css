@@ -5053,6 +5053,22 @@ ul {
   align-items: stretch;
 }
 
+/* Border line after each section */
+section {
+  border-bottom: 1px solid #ccc; /* Light gray divider line */
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Header major h3 formating */
+header.major h3 {
+  font-size: 2rem;         /* Makes it bigger */
+  margin-top: 4rem;        /* Adds more space above */
+  margin-bottom: 1rem;     /* Adds space below before the next heading */
+  font-weight: 700;        /* Optional: makes it bold */
+  text-align: center;      /* Optional: centers the text */
+}
+
 
 
 
