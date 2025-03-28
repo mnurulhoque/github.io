@@ -5109,3 +5109,13 @@ section.intro .image a:last-child img {
   height: 40px; /* Optional: Standardize icon size */
 }
 
+/* Fix distortion for profile image */
+.image.left img {
+  width: auto;
+  height: auto;
+  max-width: 300px;     /* Or set your preferred width */
+  max-height: 400px;    /* Optional, to control height */
+  object-fit: cover;    /* Ensures it maintains aspect ratio nicely */
+  border-radius: 10px;  /* Optional: adds rounded corners */
+}
+
