@@ -5070,52 +5070,6 @@ header.major h3 {
 }
 
 
-section.intro .image a img {
-  margin-right: 0.5rem; /* smaller spacing between icons */
-  vertical-align: middle;
-  height: 40px; /* adjust if icons are too big or small */
-}
-
-section.intro .image a:last-child img {
-  margin-right: 0; /* removes extra space after the last icon */
-}
 
 
-/* Featured Project Styling */
-.post.featured {
-  text-align: center;
-}
-
-.post.featured .image.main {
-  display: block;
-  margin: 2rem auto;
-  max-width: 100%;
-  width: 90%; /* Adjust this (e.g., 100%, 95%, 90%) as needed */
-}
-
-.post.featured img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.intro .image a {
-  margin-right: 5px; /* Smaller space between the icons */
-  display: inline-block;
-}
-
-.intro .image img {
-  vertical-align: middle;
-  height: 40px; /* Optional: Standardize icon size */
-}
-
-/* Fix distortion for profile image */
-.image.left img {
-  width: auto;
-  height: auto;
-  max-width: 300px;     /* Or set your preferred width */
-  max-height: 400px;    /* Optional, to control height */
-  object-fit: cover;    /* Ensures it maintains aspect ratio nicely */
-  border-radius: 10px;  /* Optional: adds rounded corners */
-}
 
