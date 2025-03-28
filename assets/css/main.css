@@ -5081,4 +5081,21 @@ section.intro .image a:last-child img {
 }
 
 
+/* Featured Project Styling */
+.post.featured {
+  text-align: center;
+}
+
+.post.featured .image.main {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  width: 90%; /* Adjust this (e.g., 100%, 95%, 90%) as needed */
+}
+
+.post.featured img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 
