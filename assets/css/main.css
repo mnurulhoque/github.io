@@ -5070,6 +5070,15 @@ header.major h3 {
 }
 
 
+section.intro .image a img {
+  margin-right: 0.5rem; /* smaller spacing between icons */
+  vertical-align: middle;
+  height: 40px; /* adjust if icons are too big or small */
+}
+
+section.intro .image a:last-child img {
+  margin-right: 0; /* removes extra space after the last icon */
+}
 
 
 
