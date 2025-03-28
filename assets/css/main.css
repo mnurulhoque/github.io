@@ -5099,3 +5099,13 @@ section.intro .image a:last-child img {
   border-radius: 8px;
 }
 
+.intro .image a {
+  margin-right: 5px; /* Smaller space between the icons */
+  display: inline-block;
+}
+
+.intro .image img {
+  vertical-align: middle;
+  height: 40px; /* Optional: Standardize icon size */
+}
+
